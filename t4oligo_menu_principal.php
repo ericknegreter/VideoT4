@@ -99,7 +99,7 @@
 	</style>
 </head>
 <body>
-	<header>CURSO DE CAPACITACION T4OLIGO</header>
+	<header>CURSO DE CAPACITACIONNNN T4OLIGO</header>
 
 	<div>
 		<div align="right">
