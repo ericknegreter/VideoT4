@@ -2,140 +2,39 @@
 <html>
 <head>
 	<title>t4oligo</title>
-	<style type="text/css">
-		header{
-			background-color: #4FBDCD;
-			padding: 30px;
-			text-align: center;
-			font-size: 35px;
-			color: white;
-		}
-
-		.cuadrado_principal{
-			padding:5px;
-			margin:5px;
-			width: 200px;
-			height: 200px;
-			background-color: #FCFCD0;
-			border: solid 2px white;
-			color: silver;
-			/*text-align: center;*/
-			display: flex;
-   			justify-content: center;
-   			align-items: center;
-		}
-
-		.cuadros_sintesis{
-			width: 200px;
-			height: 50px;
-			background-color: #B4C6E7;
-			border: solid 2px white;
-			color: black;
-			/*text-align: center;*/
-			display: flex;
-   			justify-content: center;
-   			align-items: center;
-		}
-
-		.cuadros_equipo{
-			width: 200px;
-			height: 50px;
-			background-color: #70AD47;
-			border: solid 2px white;
-			color: black;
-			/*text-align: center;*/
-			display: flex;
-   			justify-content: center;
-   			align-items: center;
-		}
-
-		.cuadros_pre_reactivos{
-			width: 200px;
-			height: 50px;
-			background-color: #FFE699;
-			border: solid 2px white;
-			color: black;
-			text-align: center;
-			display: flex;
-   			justify-content: center;
-   			align-items: center;
-		}
-
-		.cuadros_sintesis_b{
-			width: 200px;
-			height: 50px;
-			background-color: #B4C6E7;
-			border: solid 2px white;
-			color: black;
-			text-align: center;
-			display: flex;
-   			justify-content: center;
-   			align-items: center;
-		}
-
-		.cuadros_equipo_b{
-			width: 200px;
-			height: 50px;
-			background-color: #70AD47;
-			border: solid 2px white;
-			color: black;
-			text-align: center;
-			display: flex;
-   			justify-content: center;
-   			align-items: center;
-		}
-
-		.cuadros_pre_reactivos_b{
-			width: 200px;
-			height: 50px;
-			background-color: #FFE699;
-			border: solid 2px white;
-			color: black;
-			text-align: center;
-			display: flex;
-   			justify-content: center;
-   			align-items: center;
-		}
-	</style>
+	<link  type="text/css" href="style.css" rel="stylesheet"/>
 </head>
-<body>
-	<header>CURSO DE CAPACITACIONNNN T4OLIGO</header>
+<body style="background-color: red">
+	<div id="titulo">
+		<p id="header">CURSO DE CAPACITACIÓN</p>
+		<p id="subheader">T4 OLIGO</p>	
+	</div>
 
-	<div>
-		<div align="right">
-			<div class="cuadros_sintesis_b">Definicion</div>
-		</div>
-	</div>
-	<div>
-		<div align="right">
-			<div class="cuadros_sintesis_b">Ciclo de sintesis</div>
+	<header>
+		
+		<div class="contenedor" id="uno">
+			<a href="Admin.php"><img class="icon" src="pictures/4Admin.png"></a>
+			<p class="texto">Administración</p>
 		</div>
 
-	</div>
-	<div>
-		<div align="right">
-			<div class="cuadros_sintesis_b">Archivo de sintesis y orden maestra</div>
+		<div class="contenedor" id="dos" onclick="">
+			<a href="Lab.php"><img class="icon" src="pictures/1Lab.png"></a>
+			<p class="texto">Laboratorio</p>
 		</div>
-	</div>
-	<div>
-		<div>
-			<div class="cuadros_sintesis">SINTESIS
-			<div class="cuadros_sintesis_b">¿Como programar sintesis en ABI 3900?</div>
+
+		<div class="contenedor" id="tres">
+			<a href="Inge.php"><img class="icon" src="pictures/3Ing.png"></a>
+			<p class="texto">Ingeniería</p>
 		</div>
-	</div>
-	<div>
-		<div align="right">
-			<div class="cuadros_sintesis_b">¿Como programar sintesis en DR OLIGO 96?</div>
+
+		<div class="contenedor" id="cuatro">
+			<a href="Bioi.php"><img class="icon" src="pictures/2bio.png"></a> 
+			<p class="texto">Bioinformática</p>
 		</div>
-	</div>
-	<div>
-		<div align="right">
-			<div class="cuadros_sintesis_b">¿Como sintetizar oligos modificados, marcados o sondas?</div>
-	</div>
-	<div>
-		<div align="right">
-			<div class="cuadros_sintesis_b">¿Como y cuando remover DMT?</div>
-		</div>
-	</div>
+
+
+
+	</header>
+
 </body>
 </html>
