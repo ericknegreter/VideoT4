@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #D4D4D4;
+	font-family: 'Open sans';
+}
+
+.wrap{
+	width: 800px;
+	max-width: 90%;
+	margin: 30px auto;
+}
+
+ul.tabs{
+	width: 100%;
+	background: #363636;
+	list-style: none;
+	display: flex;
+}
+
+ul.tabs li{
+	width: 30%;
+	float: left;
+}
+
+ul.tabs li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+padding: 10px 12px;
+	display: block;
+	top: -20px;
+}
+
+.active{
+	background: #0984CC;
+}
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+.tabs > li {
+float:left;
+			}			
+.secciones{
+	width: 100%;
+	background: #fff;
+}
+
+.secciones article{
+	padding: 30px;
+}
+.vid{
+padding-top: 15pc;
+padding-left:10pc;
+}
+
+.vid2{
+padding-top: 1pc;
+padding-left:1pc;
+}
+			}			
+.secciones article p{
+	text-align: justify;
+}
+
+			.tabs li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.tabs li:hover > ul {
+				display:block;
+			}
+			
+			.tabs li ul li {
+				position:relative;
+			}
+			
+			.tabs li ul li ul {
+				right:-140px;
+				top:0px;
+
+			}
+
+@media screen and (max-width: 700px){
+	ul.tabs li{
+		width: none;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (max-width: 450px){
+	ul.tabs li a{
+		padding: 15px 0px;
+	}
+
+	ul.tabs li a .tab-text{
+		display: none;
+	}
+
+	.secciones article{
+		padding: 20px;
+	}
+}
+.vertical-menu {
+  width: 700px; /* Set a width if you like */
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  text-align: center;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+text-align: center;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+  text-align: center;
+}
+
