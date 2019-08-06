@@ -2,6 +2,85 @@
 
 <html lang="en">
 <head>
+
+<script>
+function Ocultar(ejemplo)
+{
+	vista=document.getElementById(ejemplo).style.display;
+	if (vista=='none')
+	vista='block';
+	else
+	vista='none';
+document.getElementById(ejemplo).style.display = vista;
+}
+</script>
+<script>
+function Ocultar(ejemplo2)
+{
+	vista=document.getElementById(ejemplo2).style.display;
+	if (vista=='none')
+	vista='block';
+	else
+	vista='none';
+document.getElementById(ejemplo2).style.display = vista;
+}
+</script>
+<script>
+function Ocultar(ejemplo3)
+{
+	vista=document.getElementById(ejemplo3).style.display;
+	if (vista=='none')
+	vista='block';
+	else
+	vista='none';
+document.getElementById(ejemplo3).style.display = vista;
+}
+</script>
+<script>
+function Ocultar(ejemplo4)
+{
+	vista=document.getElementById(ejemplo4).style.display;
+	if (vista=='none')
+	vista='block';
+	else
+	vista='none';
+document.getElementById(ejemplo4).style.display = vista;
+}
+</script>
+<script>
+function Ocultar(ejemplo5)
+{
+	vista=document.getElementById(ejemplo5).style.display;
+	if (vista=='none')
+	vista='block';
+	else
+	vista='none';
+document.getElementById(ejemplo5).style.display = vista;
+}
+</script>
+<script>
+function Ocultar(ejemplo6)
+{
+	vista=document.getElementById(ejemplo6).style.display;
+	if (vista=='none')
+	vista='block';
+	else
+	vista='none';
+document.getElementById(ejemplo6).style.display = vista;
+}
+</script>
+<script>
+function Ocultar(ejemplo7)
+{
+	vista=document.getElementById(ejemplo7).style.display;
+	if (vista=='none')
+	vista='block';
+	else
+	vista='none';
+document.getElementById(ejemplo7).style.display = vista;
+}
+</script>
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>LABORATORIO</title>
@@ -31,47 +110,37 @@
 			</article>
 			<article id="tab2">
 				<div class="vertical-menu">
-				  <a href="#" class="active">Definiciones</a>
+				 <a href="#" class="active"onclick="Ocultar('ejemplo'); return false;">Definiciones</a>	
 				  <div id="vid2">
-					<video id="video" style="padding-top: 1pc;
-				padding-left:1%;"  src="video/v.mp4 " controls="">
-					</video>
+				  	<p>
+    <input type="text" disabled="none" class="outlinenone" value="Descripción del video">
+  </p>
+				  	
+     		<video id="ejemplo" style="display: none; padding-top: 1pc;
+				    padding-left:5%;" src="video/v.mp4 " controls="">
+     		 </video>
+				
+			<a href="#"style="cursor:pointer;" class="linkdef"onclick="Ocultar('ejemplo2'); return false;">Ciclo de síntesis</a>
+			 <div id="vid2">
+		    <video id="ejemplo2"  src="video/v.mp4" controls=""style="display: none;"></video>
+ 			<a href="#" class="active" style="cursor:pointer;" class="linkdef"onclick="Ocultar('ejemplo3'); return false;">Archivo de síntesis y orden muestra</a>
+ 		<div id="vid2">
+		<video id="ejemplo3" src="video/v.mp4" controls=""style="display: none;"></video>
 				</div>
-					<a href="#" class="active">Ciclo de síntesis</a>
-					 <div id="vid2">
-					<video id="video" style="padding-top: 1pc;
-				padding-left:1%;"  src="video/v.mp4" controls="">
-					</video>
+ 		<a href="#" style="cursor:pointer;" class="linkdef"onclick="Ocultar('ejemplo4'); return false;">¿Cómo programar síntesis en ABI 3900?</a>
+ 		<div id="vid2">
+		<video id="ejemplo4" src="video/v.mp4" controls=""style="display: none;"></video>
 				</div>
- 					 <a href="#" class="active">Archivo de síntesis y orden muestra</a>
- 					  <div id="vid2">
-					<video id="video" style="padding-top: 1pc;
-				padding-left:1%;"  src="video/v.mp4" controls="">
-					</video>
-				</div>
- 						 <a href="#" class="active">¿Cómo programar síntesis en ABI 3900?</a>
- 						  <div id="vid2">
-					<video id="video" style="padding-top: 1pc;
-				padding-left:1%;"  src="video/v.mp4" controls="">
-					</video>
-				</div>
-		  <a href="#" class="active" >¿Cómo prorgramar síntesis en DR OLIGO 96?</a>	
+		 <a href="#" class="active" style="cursor:pointer;" class="linkdef"onclick="Ocultar('ejemplo5'); return false;">¿Cómo programar síntesis en DR OLIGO 96?</a>	
 		 <div id="vid2">
-					<video id="video" style="padding-top: 1pc;
-				padding-left:1%;"  src="video/v.mp4" controls="">
-					</video>
+		<video id="ejemplo5" src="video/v.mp4" controls=""style="display: none;"></video></div>
+		<a href="#" style="cursor:pointer;" class="linkdef"onclick="Ocultar('ejemplo6'); return false;">¿Cómo síntetizar oligos modificados, marcados o sondas?</a>
+ 				<div id="vid2">
+					<video id="ejemplo6"src="video/v.mp4" controls="" style="display: none;"></video>
 				</div>
-				<a href="#" class="active">¿Cómo síntetizar oligos modificados, marcados o sondas?</a>
- <div id="vid2">
-					<video id="video" style="padding-top: 1pc;
-				padding-left:1%;"  src="video/v.mp4" controls="">
-					</video>
-				</div>
-			<a href="#" class="active">¿Cómo y cuándo remover DMT?</a>	
- <div id="vid2">
-					<video id="video" style="padding-top: 1pc;
-				padding-left:1%;"  src="video/v.mp4" controls="">
-					</video>
+			<a href="#" class="active" style="cursor:pointer;" class="linkdef"onclick="Ocultar('ejemplo7'); return false;">¿Cómo y cuándo remover DMT?</a>	
+ 			<div id="vid2">
+					<video id="ejemplo7" src="video/v.mp4" controls=""  style="display: none;"></video>
 				</div>							
 			</article>
 		<article id="tab3">

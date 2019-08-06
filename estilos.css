@@ -62,9 +62,8 @@ padding-top: 15pc;
 padding-left:10pc;
 }
 
-.vid2{
-padding-top: 1pc;
-padding-left:1pc;
+.ejemplo{
+ padding-left: 15%;
 }
 			}			
 .secciones article p{
@@ -117,6 +116,7 @@ padding-left:1pc;
   position: relative;
   margin: 0 auto;
   text-align: center;
+
 }
 
 .vertical-menu a {
@@ -139,3 +139,35 @@ text-align: center;
   text-align: center;
 }
 
+  input {
+    width: 600px;
+    padding: 5px;
+     text-align: center;
+  }
+  .redondeado {
+    border-radius: 1px;
+     text-align: center;
+  }
+  .confondo {
+    background-color: #def;
+     text-align: center;
+  }
+  .sinborde {
+    border: 0;
+  }
+  .sinbordefondo {
+    background-color: #eee;
+    border: 0;
+     text-align: center;
+  }
+  .outlinenone {
+    outline: none;
+    background-color: #dfe;
+    border: 0;
+     text-align: center;
+  }
+  .redondeadonorelieve {
+    border-radius: 5px;
+    border: 1px solid #39c;
+    text-align: center;
+  }
