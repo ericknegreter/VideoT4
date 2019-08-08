@@ -3,7 +3,7 @@
 	<title>t4oligo</title>
 	<link  type="text/css" href="style.css" rel="stylesheet"/>
 </head>
-<body style="background-color:  #F2CD9E  ">
+<body style="background-color:  #FAFAD2">
 	<div id="titulo">
 		<p id="header">CURSO DE CAPACITACIÓN</p>
 		<p id="subheader">T4 OLIGO</p>	
